@@ -8,7 +8,7 @@ public class SwitchExample1 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("성별을 입려하세요. (M/F)");
+		System.out.println("성별을 입력하세요. (M/F)");
 		System.out.print("> ");
 		String gender = sc.next();
 		
