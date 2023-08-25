@@ -15,18 +15,32 @@ public class IfQuiz02 {
        */
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("출력");
-		int n = sc.nextInt();
+		System.out.println("정수 입력하세요: ");
+		int num = sc.nextInt();
 		
-		
-		if(n!=0 && n%7==0) {
-			System.out.println("7의 배수입니다.");
-		}else if(n%7!=0){
-			System.out.println("7의 배수가 아닙니다.");
-		}else if(n==0){
-			System.out.println("0입니다.");
+		if(num %7==0 && num !=0) {
+			System.out.println(num+"은(는)7의 배수입니다.");
+		}else if(num==0) {
+			System.out.println("입력된 값은 0 입니다.");
+		}else {
+			System.out.println(num+"은(는)7의 배수가 아닙니다.");
 		}
 		sc.close();
+		
+		
 	}
 
 }
+
+//내가 한거
+//int n = sc.nextInt();
+//
+//
+//if(n!=0 && n%7==0) {
+//	System.out.println("7의 배수입니다.");
+//}else if(n%7!=0){
+//	System.out.println("7의 배수가 아닙니다.");
+//}else if(n==0){
+//	System.out.println("0입니다.");
+//}
+//sc.close();

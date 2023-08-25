@@ -18,17 +18,22 @@ public class IfQuiz01 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("입력받은 수: ");
 		int dun = sc.nextInt();
-		int i = sc.nextInt();
 		
-		if(dun>i) {
-			System.out.printf("%d이 큰 수 입니다.", dun);
-		}else if(i>dun) {
-			System.out.printf("%d이 큰 수 입니다.", i);
-		}else {
-			System.out.println("같은 수 입니다.");
-		}
-		sc.close();
-				
+		
 	}
 
 }
+
+
+
+//int dun = sc.nextInt();
+//int i = sc.nextInt();
+//
+//if(dun>i) {
+//	System.out.printf("%d이 큰 수 입니다.", dun);
+//}else if(i>dun) {
+//	System.out.printf("%d이 큰 수 입니다.", i);
+//}else {
+//	System.out.println("같은 수 입니다.");
+//}
+//sc.close();
