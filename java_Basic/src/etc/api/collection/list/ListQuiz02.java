@@ -75,7 +75,7 @@ public class ListQuiz02 {
 
 }
 
-//List<User> list = new ArrayList<>();  시발 유저를 안썻네 스트링을 썼네
+//List<User> list = new ArrayList<>();   유저를 안썻네 스트링을 썼네
 //
 //User str = new User("홍길동",30);
 //User str2 = new User("박영희",35);

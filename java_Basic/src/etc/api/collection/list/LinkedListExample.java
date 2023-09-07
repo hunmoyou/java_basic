@@ -39,7 +39,7 @@ public class LinkedListExample {
 		System.out.println(list);
 		
 		//FIFO -> first in first out -> Queue
-		//offer, poll, peek
+		//offer(뒤에서 추가), poll(==pop), peek
 		list.offer("a");
 		list.offer("b");
 		list.offer("c");
