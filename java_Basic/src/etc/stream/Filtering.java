@@ -18,7 +18,7 @@ public class Filtering {
         menuList.stream()
                 .filter(dish -> dish.isVegetarian())
                 .collect(toList())
-                .forEach(dish -> System.out.println("dish = " + dish));
+                .forEach(dish -> System.out.println(dish));
 
 
 //        dishInVegiterian.forEach(dish -> System.out.println("dish = " + dish));

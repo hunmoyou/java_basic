@@ -48,4 +48,6 @@ public class Apple {
                 ", color=" + color +
                 '}';
     }
+
+
 }

@@ -101,5 +101,6 @@ public class Main {
         List<Integer> map3 = map(appleBasket, Apple::getWeight);
         System.out.println("map3 = " + map3);
 
+
     }
 }
